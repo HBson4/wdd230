@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto auto 1fr auto / 1fr auto;
+  }
+  
+  header {
+    background: lightpink;
+    padding: 1rem;
+    grid-column: 1 / 4;
+  }
+
+  nav {
+    background: skyblue;
+    grid-column: 1 / 4;
+    padding: 1rem;
+  }
+  
+  main {
+    background: coral;
+    grid-column: 1 / 3;
+    padding: 1rem;
+
+  }
+  
+  .right-sidebar {
+    background: lightgreen;
+    grid-column: 3 / 4;
+    padding: 2rem;
+  }
+  
+  footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+  }

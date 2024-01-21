@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main, footer {
+    background-color: skyblue;
+    border: 1px solid darkgrey;
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+.scripture {
+    background-color: white;
+    border: 10px solid skyblue;
+    padding: 1rem;
+}
