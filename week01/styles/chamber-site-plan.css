@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap');
 
 :root {
   --primary-color: #215BA6;
@@ -7,8 +7,8 @@
   --accent2-color: #F2F2F2;
 
 
-  --heading-font: ;
-  --paragraph-font: , Helvetica, sans-serif;
+  --heading-font: Oswald;
+  --paragraph-font: Merriweather, Helvetica, serif;
 
 
   --headline-color-on-white: var(--secondary-color);  /* headlines on a white background */ 
@@ -59,7 +59,7 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
-  padding: 1em;
+  padding: .5em;
 }
 .colors {
   width: 100%;
