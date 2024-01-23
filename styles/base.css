@@ -58,6 +58,10 @@ nav a {
     align-items: center;
 }
 
+nav a:hover {
+    background-color: var(--light_blue);
+}
+
 #active {
     background-color: var(--light_blue);
 }
