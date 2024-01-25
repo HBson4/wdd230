@@ -16,17 +16,12 @@
   --paragraph-color-on-white: #215BA6; /* paragraph text on a white background */ 
   --paragraph-color-on-color: var(--accent2-color); /* paragraph text on a colored background */ 
   --paragraph-background-color: var(--primary-color);
-  --nav-link-color: var(--accent2-color);
-  --nav-background-color: #BF3641;
-  --nav-hover-link-color: var(--accent2-color);
-  --nav-hover-background-color: var(--accent2-color);
 }
-
 
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 2em;
   font-size: 18px;
   text-align: center;
 }
@@ -48,6 +43,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
+  margin-top: 1em;
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
@@ -89,27 +85,4 @@ p {
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
-}
-nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
-}
-nav  {
-  list-style-type: none;
-  display: flex;
-}
-nav a {
-  padding:1em;
-  min-width: 120px;
-  text-decoration: none;
-  padding: 10px;
-}
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
-}
-nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
 }
