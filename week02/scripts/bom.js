@@ -3,7 +3,9 @@ const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
 
-button.addEventListener('click', () => {
+button.addEventListener('click', (e) => {
+    e.preventDefault();
+    
     const value =  input.value;
     if (value) {
         const li = document.createElement('li');
@@ -23,6 +25,6 @@ button.addEventListener('click', () => {
         input.value = '';
         input.focus();
     }
-    
+
     input.focus();
 });
