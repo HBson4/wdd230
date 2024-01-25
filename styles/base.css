@@ -90,6 +90,10 @@ h1 {
     grid-template-columns: 1fr;
 }
 
+hr {
+    margin: 0 5em;
+}
+
 h2 {
     background-color: var(--dark_blue);
     color: var(--white);
