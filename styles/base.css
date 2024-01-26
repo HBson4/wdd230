@@ -4,11 +4,32 @@
     --blue: #2694BF;
     --light_blue: #1DCBF2;
     --white: #FFFFFF;
+
+    /* --primary-color: #3498db;
+    --secondary-color: #ff9ff3;
+    --accent-color: #74b9ff;
+    --background-color: #f8f8f8;
+    --text-color: #333333; */
+
+    --primary-color: #1abc9c;
+    --secondary-color: #e74c3c;
+    --accent-color: #3498db;
+    --background-color: whitesmoke;
+    --text-color: #333333;
+    --gradient-primary: linear-gradient(45deg, #1abc9c, #2ecc71);
+    --gradient-secondary: linear-gradient(45deg, #e74c3c, #f77e52);
+    --gradient-accent: linear-gradient(45deg, #3498db, #5dade2);
+
+}
+html, body {
+    height: 100%
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: var(--background-color);
     font-family: 'Ubuntu';
+    display: flex;
+    flex-direction: column;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -18,7 +39,7 @@ body {
 /* ---------------- HEADER ---------------- */
 
 header {
-    background-color: var(--dark_blue);
+    background: var(--gradient-primary);
     color: var(--white);
 }
 
@@ -44,12 +65,12 @@ span {
 /* ----------------- NAV ------------------ */
 
 nav {
-    background-color: var(--blue);
+    background: var(--gradient-secondary);
     margin-bottom: 1.5em;
 }
 
 nav a {
-    color: var(--white);
+    color: var(--text-color);
     text-decoration: none;
     display: block;
     padding: .5em;
@@ -59,14 +80,18 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--light_blue);
+    background: var(--gradient-accent);
+    color: var(--white);
 }
 
 #active {
-    background-color: var(--light_blue);
+    background: var(--gradient-accent);
 }
 
 /* ----------------- MAIN ----------------- */
+main {
+    flex: 1;
+}
 
 h1 {
     font-size: 1.5em;
@@ -74,7 +99,7 @@ h1 {
 }
 
 .card {
-    border: 2px solid var(--navy);
+    border: 2px solid var(--text-color);
     margin: 1em auto;
     width: 90%;
 }
@@ -95,7 +120,7 @@ hr {
 }
 
 h2 {
-    background-color: var(--dark_blue);
+    background: var(--gradient-primary);
     color: var(--white);
     text-align: center;
     margin: 0 auto;
@@ -116,7 +141,7 @@ li {
 /* ---------------- FOOTER ---------------- */
 
 footer {
-    background-color: var(--dark_blue);
+    background: var(--gradient-primary);
     color: var(--white);
     display: block;
     text-align: center;
