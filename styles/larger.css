@@ -17,15 +17,16 @@
 
     /* ----------------- NAV ------------------ */
 
-    nav {
+    #navLinks {
         display: flex;
         justify-content: center;
     }
 
-    nav a {
+    #navLinks a {
         width: 25%;
         font-size: 1.75em;
         padding: 20px;
+        justify-content: center;
     }
 
     /* ----------------- MAIN ----------------- */

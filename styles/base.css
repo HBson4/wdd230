@@ -5,7 +5,6 @@
     --gradient-primary: linear-gradient(45deg, #1abc9c, #2ecc71);
     --gradient-secondary: linear-gradient(45deg, #e74c3c, #f77e52);
     --gradient-accent: linear-gradient(45deg, #3498db, #5dade2);
-
 }
 html, body {
     height: 100%
@@ -65,7 +64,7 @@ span {
 /* ----------------- NAV ------------------ */
 
 nav {
-    background: var(--gradient-secondary);
+    background: var(--gradient-accent);
     margin-bottom: 1.5em;
 }
 
@@ -75,17 +74,37 @@ nav a {
     display: block;
     padding: .5em;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    color: var(--text-color)
 }
 
 nav a:hover {
-    background: var(--gradient-accent);
+    background: var(--gradient-primary);
     color: var(--white);
 }
 
 #active {
-    background: var(--gradient-accent);
+    color: var(--white);
+}
+
+#navButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: .25rem 2vw;
+}
+
+#navLinks {
+    display: none;
+}
+
+#navLinks.open {
+    display: block;
 }
 
 /* ----------------- MAIN ----------------- */
