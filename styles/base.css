@@ -125,7 +125,7 @@ main.dark h1 {
     color: white;
 }
 
-main.dark li, p {
+main.dark li, main.dark p {
     color: white;
 }
 
