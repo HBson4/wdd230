@@ -15,6 +15,11 @@
         height: 150px;
     }
 
+    #darkBtn {
+        width: 44px;
+        top: 10px;
+    }
+
     /* ----------------- NAV ------------------ */
 
     #navButton {
