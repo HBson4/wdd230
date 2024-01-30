@@ -47,6 +47,10 @@
         font-size: 1.75em;
     }
 
+    hr {
+        margin: 0 2em;
+    }
+
     /* ---------------- FOOTER ---------------- */
 
     footer {
