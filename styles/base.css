@@ -99,7 +99,7 @@ nav a:hover {
     text-align: right;
     padding: .25rem 2vw;
     position: absolute;
-    top: 90px;
+    top: 100px;
 }
 
 #navButton::before {
