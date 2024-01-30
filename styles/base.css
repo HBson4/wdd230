@@ -1,19 +1,5 @@
 :root {
-    --navy: #060D30;
-    --dark_blue: #0F528C;
-    --blue: #2694BF;
-    --light_blue: #1DCBF2;
     --white: #FFFFFF;
-
-    /* --primary-color: #3498db;
-    --secondary-color: #ff9ff3;
-    --accent-color: #74b9ff;
-    --background-color: #f8f8f8;
-    --text-color: #333333; */
-
-    --primary-color: #1abc9c;
-    --secondary-color: #e74c3c;
-    --accent-color: #3498db;
     --background-color: whitesmoke;
     --text-color: #333333;
     --gradient-primary: linear-gradient(45deg, #1abc9c, #2ecc71);
