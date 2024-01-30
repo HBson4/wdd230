@@ -24,6 +24,7 @@ header {
     /* position: relative; */
     background: var(--gradient-primary);
     color: var(--white);
+    padding-bottom: 20px;
 }
 
 /* ------ Optional header look ------ */
@@ -72,7 +73,7 @@ nav a {
     color: var(--text-color);
     text-decoration: none;
     display: block;
-    padding: .5em;
+    padding: .75em;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -94,9 +95,19 @@ nav a:hover {
     border: none;
     color: white;
     cursor: pointer;
-    width: 100%;
-    text-align: left;
+    width: 44px;
+    text-align: right;
     padding: .25rem 2vw;
+    position: absolute;
+    top: 90px;
+}
+
+#navButton::before {
+    content: "\2630";
+}
+
+#navButton.open::before {
+    content: "x";
 }
 
 #navLinks {

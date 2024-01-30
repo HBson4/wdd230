@@ -17,7 +17,11 @@
 
     /* ----------------- NAV ------------------ */
 
-    #navLinks {
+    #navButton {
+        display: none;
+    }
+
+    #navLinks, #navLinks.open {
         display: flex;
         justify-content: center;
     }
