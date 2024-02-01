@@ -21,7 +21,7 @@ header {
 #hero_text {
     color: white;
     font-family: oswald;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 #call_to_action {
@@ -55,9 +55,10 @@ nav {
 }
   
 nav a {
-    float: left;
+    justify-content: left;
     color: #f2f2f2;
     text-align: left;
+    display: block;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -99,14 +100,21 @@ nav a.active {
 }
 
 #navLinks.open {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 /* ----------------- MAIN ----------------- */
 
 main {
     text-align: center;
+}
+
+main h2 {
+    font-family: oswald;
+}
+
+main p {
+    font-family: merriweather;
 }
 
 /* ---------------- FOOTER ---------------- */

@@ -1,0 +1,18 @@
+@media screen and (min-width: 32em) {
+
+    /* ----------------- NAV ------------------ */
+    #navButton {
+        display: none;
+    }
+
+    #navLinks, #navLinks.open {
+        display: flex;
+        justify-content: left;
+    }
+
+    #navLinks a {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+}
