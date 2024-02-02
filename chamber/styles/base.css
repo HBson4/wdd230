@@ -13,10 +13,17 @@ header {
 #hero_container {
     position: relative;
     text-align: center;
+    overflow: hidden;
+    height: 400px;
 }
 
 #hero_image {
-    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 #hero_text {
