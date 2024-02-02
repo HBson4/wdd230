@@ -19,6 +19,7 @@
 
     #hero_container {
         text-align: right;
+        height: 500px;
     }
 
     #hero_text {
