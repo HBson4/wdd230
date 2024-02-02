@@ -5,11 +5,6 @@ html, body {
 
 /* ---------------- HEADER ---------------- */
 
-header {
-    /* background-color: #2685BF; */
-    /* color: white; */
-}
-
 #hero_container {
     position: relative;
     text-align: center;
@@ -23,23 +18,22 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 #hero_text {
     color: white;
     font-family: oswald;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #call_to_action {
     background-color: #333;
     color: white;
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 8px 15px;
     border-radius: 20px;
     font-family: merriweather;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #call_to_action:hover {

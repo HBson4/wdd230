@@ -15,4 +15,26 @@
         padding: 20px;
     }
 
+    /* ---------------- HEADER ---------------- */
+
+    #hero_container {
+        text-align: right;
+    }
+
+    #hero_text {
+        font-size: 60px;
+        right: auto;
+        margin: 15px 0;
+    }
+
+    #call_to_action {
+        font-size: 18px;
+    }
+
+    .centered {
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+
 }
