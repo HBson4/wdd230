@@ -5,6 +5,10 @@ html, body {
 
 /* ---------------- HEADER ---------------- */
 
+header {
+    margin-bottom: 2em;
+}
+
 #hero_container {
     position: relative;
     text-align: center;
@@ -119,8 +123,24 @@ main h2, h3 {
     font-family: oswald;
 }
 
+main h2 {
+    font-size: 2em;
+}
+
+main h3 {
+    font-size: 1.5em;
+}
+
 main p {
     font-family: merriweather;
+}
+
+.card {
+    background-color: rgb(50, 50, 150);
+    color: white;
+    padding: .8em 1.2em;
+    width: 65%;
+    margin: 40px auto;
 }
 
 /* ---------------- FOOTER ---------------- */
