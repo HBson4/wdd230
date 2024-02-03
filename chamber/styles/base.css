@@ -51,14 +51,17 @@ html, body {
 /* ----------------- NAV ------------------ */
 
 nav {
-    background-color: #333;
-    overflow: hidden;
+    background-color: rgb(0, 0, 0, .7);
     font-family: merriweather;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
   
 nav a {
     justify-content: left;
-    color: #f2f2f2;
+    color: white;
     text-align: left;
     display: block;
     padding: 14px 16px;
@@ -67,12 +70,12 @@ nav a {
 }
   
 nav a:hover {
-    background-color: #ddd;
+    background-color: rgb(200, 200, 200, .7);
     color: black;
 }
   
 nav a.active {
-    background-color: #04AA6D;
+    background-color: rgb(100, 100, 200, .7);
     color: white;
 }
 
@@ -103,6 +106,7 @@ nav a.active {
 
 #navLinks.open {
     display: block;
+    background-color: rgb(100, 100, 100, .85);
 }
 
 /* ----------------- MAIN ----------------- */
@@ -111,7 +115,7 @@ main {
     text-align: center;
 }
 
-main h2 {
+main h2, h3 {
     font-family: oswald;
 }
 
