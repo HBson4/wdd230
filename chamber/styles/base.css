@@ -141,6 +141,19 @@ main p {
     padding: .8em 1.2em;
     width: 65%;
     margin: 40px auto;
+    box-shadow: 4px 4px 8px 0 #333;
 }
 
 /* ---------------- FOOTER ---------------- */
+
+footer {
+    background-color: #777;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: .5em;
+}
+
+#lastModified {
+    display: block;
+}
