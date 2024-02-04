@@ -38,6 +38,25 @@
         transform: translate(-50%, -50%);
     }
 
+    /* ------------ IMAGE SLIDESHOW ------------ */
+
+    .slideshow-container {
+        display: none;
+    }
+    
+    .dot {
+        display: none;
+    }
+
+    .image_gallery {
+        display: inline;
+    }
+
+    .image_gallery img {
+        margin: 15px 15px;
+        border: 5px solid black;
+    }
+
     /* ---------------- FOOTER ---------------- */
 
     footer {
