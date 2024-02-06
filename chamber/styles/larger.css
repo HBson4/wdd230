@@ -48,7 +48,7 @@
     .card {
         width: 20em;
         height: auto;
-        margin: 2em;
+        margin: 0 2em;
     }
 
     /* ------------ IMAGE SLIDESHOW ------------ */
@@ -66,6 +66,8 @@
     }
 
     .image_gallery img {
+        width: 300px;
+        height: 300px;
         margin: 15px 15px;
         border: 5px solid black;
     }
