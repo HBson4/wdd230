@@ -38,6 +38,19 @@
         transform: translate(-50%, -50%);
     }
 
+     /* ----------------- MAIN ----------------- */
+
+    .cards {
+        display: flex;
+        width: 80%;
+    }
+
+    .card {
+        width: 20em;
+        height: auto;
+        margin: 2em;
+    }
+
     /* ------------ IMAGE SLIDESHOW ------------ */
 
     .slideshow-container {

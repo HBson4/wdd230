@@ -135,11 +135,15 @@ main p {
     font-family: merriweather;
 }
 
+.cards {
+    width: 65%;
+    margin: 0 auto;
+}
+
 .card {
     background-color: rgb(50, 50, 150);
     color: white;
     padding: .8em 1.2em;
-    width: 65%;
     margin: 40px auto;
     box-shadow: 4px 4px 8px 0 #333;
 }
