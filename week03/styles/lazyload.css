@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+img {
+    border: 5px solid black;
+    grid-column: 2/3;
+    margin: 0 auto;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+footer {
+    background-color: #777;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: .5em;
+    margin-top: 2em;
+}
