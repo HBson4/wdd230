@@ -39,8 +39,21 @@
 
     /* ----------------- MAIN ----------------- */
 
+    .hero span {
+        top: 20%;
+        left: 10%;
+        font-size: 1.75em;
+        right: auto;
+        bottom: auto;
+    }
+
     .columns {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 3fr 2fr;
+        column-gap: 2em;
+    }
+
+    .card {
+        margin: 2em auto;
     }
 
     h1 {
