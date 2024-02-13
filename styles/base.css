@@ -103,8 +103,12 @@ nav a:hover {
 
 main {
     flex: 1;
-    padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
 }
 
 /* --------- MAIN DARK --------- */
