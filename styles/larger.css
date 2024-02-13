@@ -47,6 +47,10 @@
         bottom: auto;
     }
 
+    .container {
+        width: 95%;
+    }
+
     .columns {
         grid-template-columns: 3fr 2fr;
         column-gap: 2em;
