@@ -136,16 +136,24 @@ main p {
 }
 
 .cards {
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
 }
 
-.card {
-    background-color: rgb(50, 50, 150);
-    color: white;
-    padding: .8em 1.2em;
-    margin: 40px auto;
+.event {
+    background-color: #BF3641;
     box-shadow: 4px 4px 8px 0 #333;
+    padding: 20px;
+    margin: 2em 0;
+}
+
+.event img {
+    width: 100%;
+    border: 4px solid white;
+}
+
+.event_text {
+    color: white;
 }
 
 /* ------------ IMAGE SLIDESHOW ------------ */
@@ -202,7 +210,7 @@ main p {
 /* ---------------- FOOTER ---------------- */
 
 footer {
-    background-color: #777;
+    background-color: rgb(50, 50, 150);
     color: white;
     display: block;
     text-align: center;
