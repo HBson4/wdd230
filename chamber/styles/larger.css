@@ -45,21 +45,35 @@
     }
     
     .event {
-        position: relative;
-        width: 75%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 70%;
         padding: 20px;
         margin: 2em auto;
     }
     
     .event_text {
-        position: absolute;
         padding: 1em;
-        right: 60%;
-        left: 10%;
-        top: 10%;
+        margin-left: 1em;
         color: black;
-        border:5px solid white;
+        border: 5px solid white;
         background-color: rgba(255, 255, 255, .5);
+    }
+
+    .item_left {
+        grid-column: 1 / 4;
+    }
+
+    .item_right {
+        grid-column: 4 / 6;
+    }
+
+    .left {
+        margin-left: 5%;
+    }
+
+    .right {
+        margin-right: 5%;
     }
 
     /* ------------ IMAGE SLIDESHOW ------------ */
