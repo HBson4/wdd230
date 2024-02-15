@@ -31,7 +31,7 @@ header {
 }
 
 #call_to_action {
-    background-color: #BF3641;
+    background-color: rgb(50, 50, 150);
     color: white;
     text-decoration: none;
     padding: 8px 15px;
@@ -41,8 +41,7 @@ header {
 }
 
 #call_to_action:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #BF3641;
 }
 
 .centered {
@@ -160,8 +159,8 @@ main p {
 /* ------------ IMAGE SLIDESHOW ------------ */
 
 .slideshow-container {
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     margin: auto;
     border: 5px solid black;
 }
