@@ -110,6 +110,8 @@ nav a.active {
 
 /* ----------------- MAIN ----------------- */
 
+/* ---------- HOME PAGE ---------- */
+
 main {
     text-align: center;
     background-color: whitesmoke;
@@ -205,6 +207,10 @@ main p {
 .image_gallery {
     display: none;
 }
+
+/* ---------- DISCOVER PAGE ---------- */
+
+
 
 /* ---------------- FOOTER ---------------- */
 
