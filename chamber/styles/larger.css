@@ -103,6 +103,37 @@
         transform: scale(1.1);
     }
 
+    /* ---------- DISCOVER PAGE ---------- */
+
+    .discover-grid {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .sidebar {
+        grid-column: 1 / 2;
+        background: lightgrey;
+        padding-top: 1em;
+        height: 100%;
+    }
+
+    .sidebar-container {
+        margin-bottom: 1em;
+    }
+
+    .main {
+        grid-column: 2 / 3;
+    }
+
+    .main img {
+        width: 85%;
+        transition: transform .5s;
+    }
+
+    .main img:hover {
+        opacity: .8;
+        transform: scale(1.02);
+    }
+
     /* ---------------- FOOTER ---------------- */
 
     footer {
