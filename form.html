@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter Beeson - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Hunter Beeson's WDD 230 - Web Frontend Development course form page">
+    <meta name="author" content="Hunter Beeson">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hbson4.github.io/wdd230/">
+    <meta property="og:image" content="https://facts.net/wp-content/uploads/2023/07/31-facts-about-mesa-az-1689389312.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalized.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+  </head>
+  <body>
+    <header>
+      <span id="title">
+        <img id="id_photo" src="images/me.webp" alt="Photo of me">
+         Hunter Beeson
+      </span>
+      <button id="navButton"></button>
+      <img id="darkBtn" src="images/dark.svg" alt="dark mode button">
+    </header>
+    <nav>
+      <div id="navLinks">
+        <a id="active" href="index.html">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="week01/chamber-site-plan.html">Site Plan</a>
+        <a href="">Form</a>
+      </div>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <label>Username*<input type="text" name="username" id="username" required></label>
+                <label>Password*<input type="password" name="username" id="password1" pattern="[A-Za-z0-9]{8,}" title="Password must be alphanumeric and at least 8 characters long" required></label>
+                <label>Confirm Password*<input type="password" name="username" id="password2" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label>Email*<input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a BYUI email address" required></label>
+                <lable>Page Rating<input type="range" name="rating" id="rating" min="0" max="10" value="0" step="1" list="values"></lable>
+                <div id="rangevalue">0</div>
+                <datalist id="values">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+      <p id="year"></p>
+      <p>Hunter Beeson</p>
+      <p>United States</p>
+      <p id="lastModified">Last Modification:</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/form.js"></script>
+  </body>
+</html>
