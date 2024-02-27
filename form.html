@@ -30,10 +30,10 @@
     </header>
     <nav>
       <div id="navLinks">
-        <a id="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="chamber/index.html">Chamber</a>
         <a href="week01/chamber-site-plan.html">Site Plan</a>
-        <a href="">Form</a>
+        <a id="active" href="">Form</a>
       </div>
     </nav>
     <main>
@@ -41,10 +41,9 @@
             <fieldset>
                 <label>Username*<input type="text" name="username" id="username" required></label>
                 <label>Password*<input type="password" name="username" id="password1" pattern="[A-Za-z0-9]{8,}" title="Password must be alphanumeric and at least 8 characters long" required></label>
-                <label>Confirm Password*<input type="password" name="username" id="password2" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label>Confirm Password*<input type="password" name="username" id="password2" pattern="[A-Za-z0-9]{8,}" title="Must match previous password" required></label>
                 <label>Email*<input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a BYUI email address" required></label>
                 <lable>Page Rating<input type="range" name="rating" id="rating" min="0" max="10" value="0" step="1" list="values"></lable>
-                <div id="rangevalue">0</div>
                 <datalist id="values">
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -58,6 +57,7 @@
                     <option value="9">9</option>
                     <option value="10">10</option>
                 </datalist>
+                <div id="rangevalue">0</div>
                 <input type="submit" value="Submit">
             </fieldset>
 
