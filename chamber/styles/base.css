@@ -123,6 +123,7 @@ main {
     background-color: whitesmoke;
     padding-top: 1em;
     padding-bottom: 2em;
+    flex: 1;
 }
 
 main h2, h3 {
@@ -256,13 +257,11 @@ h4 {
 /* ---------- JOIN PAGE ---------- */
 
 #form-main {
-    background-image: linear-gradient(lightgrey, grey);
     padding-top: 4em;
     font-family: merriweather;
 }
 
 fieldset {
-    background-color: whitesmoke;
     text-align: left;
     margin: 2em auto;
     max-width: 40%;
@@ -273,7 +272,7 @@ fieldset {
 
 label {
     font-family: oswald;
-    font-size: 1em;
+    font-size: 1.2em;
     display: block;
     padding-top: 1em;
 }
