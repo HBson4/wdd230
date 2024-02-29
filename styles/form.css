@@ -1,15 +1,15 @@
 fieldset {
-    margin: 2rem;
+    margin: 2em;
     max-width: 90%;
     border: 2px solid #ddd;
     border-radius: 6px;
-    padding: .5rem 2%;
+    padding: .5em 2%;
 }
 
 label {
     display: block;
-    padding-top: 1rem;
-    font-size: .9rem;
+    padding-top: 1em;
+    font-size: .9em;
 }
 
 input[type="text"],
@@ -19,7 +19,7 @@ input[type="email"] {
     display: block;
     border: 1px solid #999;
     border-radius: 6px;
-    padding: .75rem;
+    padding: .75em;
     color: #555;
     width: 100%;
     max-width: 90%;
@@ -43,7 +43,7 @@ input[type="submit"] {
     background: linear-gradient(90deg, #1abc9c, #2ecc71);
     color: #fff;
     border-radius: 6px;
-    padding: .8rem;
+    padding: .8em;
     width: 96%;
     max-width: 400px;
     margin: -1rem 2% 2rem 2%;
