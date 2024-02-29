@@ -1,5 +1,11 @@
 html, body {
     height: 100%;
+    background-color: whitesmoke;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -250,33 +256,38 @@ h4 {
 /* ---------- JOIN PAGE ---------- */
 
 #form-main {
+    background-image: linear-gradient(lightgrey, grey);
     padding-top: 4em;
     font-family: merriweather;
 }
 
 fieldset {
+    background-color: whitesmoke;
     text-align: left;
     margin: 2em auto;
     max-width: 40%;
-    border: 2px solid #ddd;
+    border: 5px solid #BF3641;
     border-radius: 6px;
     padding: .5em 2%;
 }
 
 label {
+    font-family: oswald;
+    font-size: 1em;
     display: block;
-    padding-top: 1.2em;
-    font-size: .9em;
+    padding-top: 1em;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
+    font-family: merriweather;
     background-color: #eee;
     display: block;
     border: 1px solid #999;
     border-radius: 6px;
+    margin-top: .2em;
     padding: .75em;
     color: #555;
     width: 100%;
@@ -284,12 +295,34 @@ textarea {
     appearance: none;
 }
 
+.join-form div {
+    padding-top: 1rem;
+    font-family: oswald;
+    font-size: 1.2em;
+}
+
+.join-form input[type="radio"] {
+    margin-right: 6px;
+}
+
+.radio {
+    font-family: merriweather;
+    font-size: 1em;
+
+}
+
+textarea {
+    margin-top: .2em;
+    font-family: merriweather;
+}
 
 #description {
     height: 8em;
 }
 
 input[type="submit"] {
+    font-family: oswald;
+    font-size: 1.4em;
     display: block;
     border: none;
     background-color: rgb(50, 50, 150);
@@ -300,7 +333,7 @@ input[type="submit"] {
     max-width: 400px;
     margin: -1rem 2% 2rem 2%;
     box-shadow: 1px 1px 4px #999;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 input:required {
@@ -313,6 +346,17 @@ input:required:valid {
 
 input[type="submit"]:hover {
     background-color: #BF3641;
+}
+
+/* ---------- THANK YOU PAGE ---------- */
+
+#thankyou-main {
+    padding-top: 4em;
+}
+
+#thankyou-main p {
+    width: 40%;
+    margin: 0 auto;
 }
 
 /* ---------------- FOOTER ---------------- */
