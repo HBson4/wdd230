@@ -134,6 +134,13 @@
         transform: scale(1.02);
     }
 
+    /* ---------- JOIN PAGE ---------- */
+    
+    fieldset {
+        max-width: 40%;
+    }
+
+
     /* ---------------- FOOTER ---------------- */
 
     footer {
