@@ -1,8 +1,12 @@
+:root {
+    --rounded: 6px;
+}
+
 fieldset {
     margin: 2em;
     max-width: 90%;
     border: 2px solid #ddd;
-    border-radius: 6px;
+    border-radius: var(--rounded);
     padding: .5em 2%;
 }
 
@@ -18,7 +22,7 @@ input[type="email"] {
     background-color: #eee;
     display: block;
     border: 1px solid #999;
-    border-radius: 6px;
+    border-radius: var(--rounded);
     padding: .75em;
     color: #555;
     width: 100%;
@@ -42,7 +46,7 @@ input[type="submit"] {
     border: none;
     background: linear-gradient(90deg, #1abc9c, #2ecc71);
     color: #fff;
-    border-radius: 6px;
+    border-radius: var(--rounded);
     padding: .8em;
     width: 96%;
     max-width: 400px;
