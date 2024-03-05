@@ -1,0 +1,128 @@
+[
+    {
+      "familyName": "Smith",
+      "dateMovedIn": "2022-08-17",
+      "numberOfPeople": 3,
+      "visitedByBishopric": true,
+      "familyMembers": [
+        {
+          "name": "John",
+          "gender": "Male",
+          "birthDate": "1985-02-21"
+        },
+        {
+          "name": "Emily",
+          "gender": "Female",
+          "birthDate": "1990-12-11"
+        },
+        {
+          "name": "Michael",
+          "gender": "Male",
+          "birthDate": "2015-05-03"
+        }
+      ]
+    },
+    {
+      "familyName": "Jones",
+      "dateMovedIn": "2023-11-28",
+      "numberOfPeople": 2,
+      "visitedByBishopric": false,
+      "familyMembers": [
+        {
+          "name": "Sarah",
+          "gender": "Female",
+          "birthDate": "1978-09-05"
+        },
+        {
+          "name": "David",
+          "gender": "Male",
+          "birthDate": "1982-07-14"
+        }
+      ]
+    },
+    {
+      "familyName": "Williams",
+      "dateMovedIn": "2021-04-03",
+      "numberOfPeople": 4,
+      "visitedByBishopric": true,
+      "familyMembers": [
+        {
+          "name": "Anna",
+          "gender": "Female",
+          "birthDate": "1982-11-30"
+        },
+        {
+          "name": "Daniel",
+          "gender": "Male",
+          "birthDate": "1987-03-24"
+        },
+        {
+          "name": "Sophia",
+          "gender": "Female",
+          "birthDate": "2013-08-18"
+        },
+        {
+          "name": "Liam",
+          "gender": "Male",
+          "birthDate": "2017-10-09"
+        }
+      ]
+    },
+    {
+      "familyName": "Brown",
+      "dateMovedIn": "2024-01-10",
+      "numberOfPeople": 5,
+      "visitedByBishopric": true,
+      "familyMembers": [
+        {
+          "name": "Olivia",
+          "gender": "Female",
+          "birthDate": "1975-06-28"
+        },
+        {
+          "name": "Ethan",
+          "gender": "Male",
+          "birthDate": "1979-04-19"
+        },
+        {
+          "name": "Ava",
+          "gender": "Female",
+          "birthDate": "2008-09-12"
+        },
+        {
+          "name": "Noah",
+          "gender": "Male",
+          "birthDate": "2012-11-07"
+        },
+        {
+          "name": "Emma",
+          "gender": "Female",
+          "birthDate": "2016-03-30"
+        }
+      ]
+    },
+    {
+      "familyName": "Taylor",
+      "dateMovedIn": "2022-12-05",
+      "numberOfPeople": 3,
+      "visitedByBishopric": false,
+      "familyMembers": [
+        {
+          "name": "James",
+          "gender": "Male",
+          "birthDate": "1989-10-16"
+        },
+        {
+          "name": "Isabella",
+          "gender": "Female",
+          "birthDate": "1995-07-22"
+        },
+        {
+          "name": "Mason",
+          "gender": "Male",
+          "birthDate": "2020-02-09"
+        }
+      ]
+    }
+  ]
+  
