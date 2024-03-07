@@ -42,4 +42,4 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
 
-// LATEST VISIT
+// DATE USER LAST VISITED
