@@ -201,14 +201,24 @@ h2 {
     padding: .5em;
 }
 
-ul {
+#weeks {
     list-style: none;
     padding: .25em;
 }
 
-li {
+#weeks li {
+    display: flex;
     font-size: 1.25em;
     padding: 5px;
+}
+
+#weeks li p {
+    font-size: 1em;
+    margin-right: 8px;
+}
+
+#weeks li a {
+    margin-right: 12px;
 }
 
 iframe {
