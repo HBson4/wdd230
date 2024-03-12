@@ -1,0 +1,122 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "HG Layout"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "Media Query"
+        },
+        {
+          "url": "https://codepen.io/Hunter-Beeson/pen/YzgWdNo",
+          "title": "JS Pen"
+        }
+      ]
+    },
+    {
+      "week": "Week 2",
+      "links": [
+        {
+          "url": "week02/design.html",
+          "title": "Design"
+        },
+        {
+          "url": "https://codepen.io/Hunter-Beeson/pen/bGZoyWx",
+          "title": "Hamburger Menu"
+        },
+        {
+          "url": "week02/bom.html",
+          "title": "DOM Manipulation"
+        }
+      ]
+    },
+    {
+      "week": "Week 3",
+      "links": [
+        {
+          "url": "week03/images/landscape.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "week03/lazyload.html",
+          "title": "Lazy Load"
+        },
+        {
+          "url": "week03/responsive-images.html",
+          "title": "Responsive Images"
+        },
+        {
+          "url": "week03/bom.html",
+          "title": "Local Storage"
+        }
+      ]
+    },
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "https://codepen.io/Hunter-Beeson/pen/ZEPNMxY",
+          "title": "CSS Pseudo-Classes Pen"
+        },
+        {
+          "url": "week04/images/ combination_exercises.png",
+          "title": "Combination Exercises"
+        },
+        {
+          "url": "week04/tablebuild.html",
+          "title": "HTML Tables"
+        },
+        {
+          "url": "week04/form.html",
+          "title": "HTML Forms"
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "https://codepen.io/Hunter-Beeson/pen/ZEZGZLL",
+          "title": "CSS Pseudo Elements"
+        },
+        {
+          "url": "week05/new-ward-members.json",
+          "title": "JSON Data"
+        },
+        {
+          "url": "week05/prophets.html",
+          "title": "Fetch API"
+        },
+        {
+          "url": "week05/weather.html",
+          "title": "Weather API"
+        }
+      ]
+    },
+    {
+      "week": "Week 6",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        },
+        {
+          "url": "",
+          "title": ""
+        },
+        {
+          "url": "",
+          "title": ""
+        },
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}
