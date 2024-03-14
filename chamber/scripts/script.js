@@ -18,4 +18,4 @@ const currentYearElement = document.querySelector('#year');
 const currentYear = new Date().getFullYear();
 currentYearElement.innerHTML = `&copy;${currentYear}`;
 
-// DATE USER LAST VISITED
+// Date user last visited
