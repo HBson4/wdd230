@@ -1,0 +1,79 @@
+[
+    {
+        "name": "ABC Corporation",
+        "address": "123 Main Street, City, Country",
+        "phoneNumber": "+1234567890",
+        "websiteUrl": "https://www.abccorp.com",
+        "image": {
+            "hyperlink": "https://www.abccorp.com/logo.png",
+            "fileName": "logo.png"
+        },
+        "membershipLvl": "gold"
+    },
+    {
+        "name": "XYZ Ltd.",
+        "address": "456 Oak Avenue, Town, Country",
+        "phoneNumber": "+0987654321",
+        "websiteUrl": "https://www.xyzltd.com",
+        "image": {
+            "hyperlink": "https://www.xyzltd.com/logo.png",
+            "fileName": "logo.png"
+        },
+        "membershipLvl": "silver"
+    },
+    {
+        "name": "PQR Inc.",
+        "address": "789 Maple Road, Village, Country",
+        "phoneNumber": "+1357924680",
+        "websiteUrl": "https://www.pqrinc.com",
+        "image": {
+            "hyperlink": "https://www.pqrinc.com/logo.png",
+            "fileName": "logo.png"
+        },
+        "membershipLvl": "bronze"
+    },
+    {
+        "name": "EFG Enterprises",
+        "address": "321 Elm Street, City, Country",
+        "phoneNumber": "+2468013579",
+        "websiteUrl": "https://www.efgenterprises.com",
+        "image": {
+            "hyperlink": "https://www.efgenterprises.com/logo.png",
+            "fileName": "logo.png"
+        },
+        "membershipLvl": "non-profit"
+    },
+    {
+        "name": "LMN Corporation",
+        "address": "654 Pine Avenue, Town, Country",
+        "phoneNumber": "+9876543210",
+        "websiteUrl": "https://www.lmncorp.com",
+        "image": {
+            "hyperlink": "https://www.lmncorp.com/logo.png",
+            "fileName": "logo.png"
+        },
+        "membershipLvl": "gold"
+    },
+    {
+        "name": "RST Ltd.",
+        "address": "987 Cedar Road, Village, Country",
+        "phoneNumber": "+7418529630",
+        "websiteUrl": "https://www.rstltd.com",
+        "image": {
+            "hyperlink": "https://www.rstltd.com/logo.png",
+            "fileName": "logo.png"
+        },
+        "membershipLvl": "silver"
+    },
+    {
+        "name": "MNO Inc.",
+        "address": "135 Walnut Street, City, Country",
+        "phoneNumber": "+3692581470",
+        "websiteUrl": "https://www.mnoinc.com",
+        "image": {
+            "hyperlink": "https://www.mnoinc.com/logo.png",
+            "fileName": "logo.png"
+        },
+        "membershipLvl": "bronze"
+    }
+]
