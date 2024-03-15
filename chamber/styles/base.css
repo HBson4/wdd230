@@ -254,6 +254,12 @@ h4 {
     padding: 0 1em;
 }
 
+#demographics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
 /* ---------- JOIN PAGE ---------- */
 
 #form-main {
