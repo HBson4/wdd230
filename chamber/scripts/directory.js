@@ -13,6 +13,7 @@ function displayDirectory(data) {
 
   for (const member of data) {
     const section = document.createElement('section');
+    section.classList.add('card');
 
     const image = document.createElement('img');
     image.setAttribute('src', member.image);
@@ -42,6 +43,6 @@ function displayDirectory(data) {
     section.appendChild(membershipLvl);
 
     directory.appendChild(section);
-    };
+  };
 };
 
