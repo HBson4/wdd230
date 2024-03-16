@@ -134,6 +134,14 @@
         transform: scale(1.02);
     }
 
+    /* -------- DIRECTORY PAGE -------- */
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+
     /* ---------- JOIN PAGE ---------- */
     
     fieldset {

@@ -10,13 +10,11 @@ fetchDirectoryData();
 
 function displayDirectory(data) {
   const directory = document.querySelector('#directory-info');
-    // directory.classList.add('grid');
-    directory.classList.add('list');
+  directory.classList.add('grid');
 
   for (const member of data) {
     const section = document.createElement('section');
     section.classList.add('card');
-    // section.classList.add('table');
 
     const image = document.createElement('img');
     image.setAttribute('src', member.image);
@@ -49,30 +47,15 @@ function displayDirectory(data) {
   };
 };
 
-function addResponsiveClasses() {
-  const section = document.querySelector('#directory-info');
-
-  if (window.innerWidth > 512) {
-    section.classList.add('grid');
-    section.classList.remove('list');
-  } else {
-    section.classList.remove('grid');
-    section.classList.add('list');
-  }
-}
-
-addResponsiveClasses();
-window.addEventListener('resize', addResponsiveClasses);
-
 const cardBtn = document.querySelector('#cardBtn');
 const listBtn = document.querySelector('#listBtn');
 
 cardBtn.addEventListener('click', () => {
-  const sections = document.querySelectorAll('.table');
+  const sections = document.querySelectorAll('.list');
 
   sections.forEach(section => {
     section.classList.add('card');
-    section.classList.remove('table');
+    section.classList.remove('list');
   });
 });
 
@@ -80,7 +63,7 @@ listBtn.addEventListener('click', () => {
   const sections = document.querySelectorAll('.card');
 
   sections.forEach(section => {
-    section.classList.add('table');
+    section.classList.add('list');
     section.classList.remove('card');
   });
 });
