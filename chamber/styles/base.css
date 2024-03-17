@@ -265,9 +265,22 @@ h4 {
     padding-top: 5em;
 }
 
-.grid {
+.gridCards {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+.list p {
+    margin: 0;
 }
 
 .card {
@@ -275,12 +288,6 @@ h4 {
     padding: 1em;
     box-shadow: 0 4px 8px 0 #333;
     width: 400px;
-}
-
-.list {
-    display: flex;
-    text-align: left;
-    margin: 0 auto;
 }
 
 .list:nth-child(2n) {

@@ -10,7 +10,7 @@ fetchDirectoryData();
 
 function displayDirectory(data) {
   const directory = document.querySelector('#directory-info');
-  directory.classList.add('grid');
+  directory.classList.add('gridCards');
 
   for (const member of data) {
     const section = document.createElement('section');
