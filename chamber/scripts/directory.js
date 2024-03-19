@@ -17,7 +17,7 @@ function displayDirectory(data) {
     section.classList.add('card');
 
     const image = document.createElement('img');
-    image.setAttribute('src', member.image);
+    image.setAttribute('src', member.image.hyperlink);
     image.setAttribute('alt', `${member.name} logo`);
 
     const name = document.createElement('h4');
