@@ -5,7 +5,7 @@
         "phoneNumber": "+1234567890",
         "websiteUrl": "https://www.abccorp.com",
         "image": {
-            "hyperlink": "https://www.abccorp.com/logo.png",
+            "hyperlink": "https://hbson4.github.io/wdd230/chamber/images/abcCorp.webp",
             "fileName": "logo.png"
         },
         "membershipLvl": "gold"
@@ -16,7 +16,7 @@
         "phoneNumber": "+0987654321",
         "websiteUrl": "https://www.xyzltd.com",
         "image": {
-            "hyperlink": "https://www.xyzltd.com/logo.png",
+            "hyperlink": "https://hbson4.github.io/wdd230/chamber/images/xyzLtd.webp",
             "fileName": "logo.png"
         },
         "membershipLvl": "silver"
@@ -27,7 +27,7 @@
         "phoneNumber": "+1357924680",
         "websiteUrl": "https://www.pqrinc.com",
         "image": {
-            "hyperlink": "https://www.pqrinc.com/logo.png",
+            "hyperlink": "https://hbson4.github.io/wdd230/chamber/images/pqrInc.webp",
             "fileName": "logo.png"
         },
         "membershipLvl": "bronze"
@@ -38,7 +38,7 @@
         "phoneNumber": "+2468013579",
         "websiteUrl": "https://www.efgenterprises.com",
         "image": {
-            "hyperlink": "https://www.efgenterprises.com/logo.png",
+            "hyperlink": "https://hbson4.github.io/wdd230/chamber/images/efgEnt.webp",
             "fileName": "logo.png"
         },
         "membershipLvl": "non-profit"
@@ -49,7 +49,7 @@
         "phoneNumber": "+9876543210",
         "websiteUrl": "https://www.lmncorp.com",
         "image": {
-            "hyperlink": "https://www.lmncorp.com/logo.png",
+            "hyperlink": "https://hbson4.github.io/wdd230/chamber/images/lmnCorp.webp",
             "fileName": "logo.png"
         },
         "membershipLvl": "gold"
@@ -60,7 +60,7 @@
         "phoneNumber": "+7418529630",
         "websiteUrl": "https://www.rstltd.com",
         "image": {
-            "hyperlink": "https://www.rstltd.com/logo.png",
+            "hyperlink": "https://hbson4.github.io/wdd230/chamber/images/rstLtd.webp",
             "fileName": "logo.png"
         },
         "membershipLvl": "silver"
@@ -71,7 +71,7 @@
         "phoneNumber": "+3692581470",
         "websiteUrl": "https://www.mnoinc.com",
         "image": {
-            "hyperlink": "https://www.mnoinc.com/logo.png",
+            "hyperlink": "https://hbson4.github.io/wdd230/chamber/images/mnoInc.webp",
             "fileName": "logo.png"
         },
         "membershipLvl": "bronze"
