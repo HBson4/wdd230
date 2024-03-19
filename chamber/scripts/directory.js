@@ -20,7 +20,7 @@ function displayDirectory(data) {
     image.setAttribute('src', member.image);
     image.setAttribute('alt', `${member.name} logo`);
 
-    const name = document.createElement('p');
+    const name = document.createElement('h4');
     name.textContent = member.name;
 
     const address = document.createElement('p');
@@ -34,7 +34,7 @@ function displayDirectory(data) {
     websiteUrl.textContent = 'Website';
 
     const membershipLvl = document.createElement('p');
-    membershipLvl.textContent = member.membershipLvl;
+    membershipLvl.textContent = member.membershipLvl.toUpperCase();
 
     section.appendChild(image);
     section.appendChild(name);
