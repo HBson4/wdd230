@@ -29,12 +29,16 @@ function closeBanner() {
 function isBannerDay() {
     const today = new Date();
     const dayOfWeek = today.getDay();
-    return dayOfWeek >= 1 && dayOfWeek <= 3;
+    if (dayOfWeek >= 1 && dayOfWeek <= 3) {return true;}
+    else {return false;}
 }
 
 function showBannerOnSpecificDays() {
     if (isBannerDay()) {
         document.getElementById("banner").style.display = "block";
+    }
+    else {
+        document.getElementById("banner").style.display = "none";
     }
 }
 
