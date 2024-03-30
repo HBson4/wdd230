@@ -108,6 +108,16 @@
         transform: scale(1.1);
     }
 
+    /* ------------ WEATHER FORCAST ------------ */
+
+    #weather {
+        flex-direction: row;
+    }
+
+    .weather_card {
+        width: 15%;
+    }
+
     /* ---------- DISCOVER PAGE ---------- */
 
     .discover-grid {

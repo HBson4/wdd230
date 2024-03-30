@@ -191,7 +191,25 @@ main p {
 
 /* ------------ WEATHER FORCAST ------------ */
 
+#weather {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.weather_card {
+    box-shadow: 4px 4px 8px 0 #333;
+    padding: 2em;
+    width: 60%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#day1, #day2, #day3 {
+    font-size: 1.25em;
+    font-family: oswald;
+}
 
 /* ------------ IMAGE SLIDESHOW ------------ */
 
