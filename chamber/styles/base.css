@@ -283,12 +283,16 @@ main h1 {
     width: 75%;
     height: auto;
     margin: .25em 0;
-    border: 10px solid #888;
+    border: 10px solid #BF3641;
+}
+
+.main img:hover {
+    border: 10px solid rgb(50, 50, 150);
 }
 
 .sidebar-container {
     width: 90%;
-    border: 5px solid black;
+    border: 5px solid rgb(50, 50, 150);
     margin: .25em auto;
 }
 
