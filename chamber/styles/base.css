@@ -296,6 +296,10 @@ main h1 {
     margin: .25em auto;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 h4 {
     font-family: oswald;
     font-size: 1.5em;
