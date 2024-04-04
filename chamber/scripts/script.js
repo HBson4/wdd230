@@ -17,5 +17,3 @@ lastModifiedElement.innerHTML = `Last Modified: ${lastModifiedDate}`;
 const currentYearElement = document.querySelector('#year');
 const currentYear = new Date().getFullYear();
 currentYearElement.innerHTML = `&copy;${currentYear}`;
-
-// Date user last visited (for discover page)
