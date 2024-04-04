@@ -320,7 +320,7 @@ h4 {
     padding-top: 5em;
 }
 
-.gridCards {
+.grid {
     display: grid;
     grid-template-columns: 1fr;
 }

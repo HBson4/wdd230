@@ -150,13 +150,14 @@
 
     /* -------- DIRECTORY PAGE -------- */
 
-    .gridCards {
+    .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 
-    .list:nth-child(2n) {
-        background-color: whitesmoke;
+    .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
 
